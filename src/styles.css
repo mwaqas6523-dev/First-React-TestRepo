@@ -313,10 +313,3 @@ h3 {
     gap: 0.2rem;
   }
 }
-
-.empty-state {
-  background: #fff;
-  border-right: 4px solid var(--primary);
-  padding: 0.9rem;
-  border-radius: 6px;
-}
