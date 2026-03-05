@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTiktok, FaXTwitter, FaYoutube } from 'react-icons/fa6';
+import { FaFacebookF, FaYoutube, FaXTwitter } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -26,32 +26,14 @@ function Footer() {
         <div>
           <h4>سوشل میڈیا</h4>
           <div className="social-links" aria-label="سوشل میڈیا روابط">
-            <a
-              href="https://www.facebook.com/siyasatbazi1.0"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Facebook"
-            >
+            <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">
               <FaFacebookF />
             </a>
-            <a
-              href="https://www.youtube.com/@siyasatbazi"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="YouTube"
-            >
+            <a href="https://youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube">
               <FaYoutube />
             </a>
-            <a href="https://x.com/siyasatbazi" target="_blank" rel="noreferrer" aria-label="X Twitter">
+            <a href="https://x.com" target="_blank" rel="noreferrer" aria-label="X Twitter">
               <FaXTwitter />
-            </a>
-            <a
-              href="https://www.tiktok.com/@siyasatbazi1.0"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="TikTok"
-            >
-              <FaTiktok />
             </a>
           </div>
         </div>
